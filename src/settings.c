@@ -5,7 +5,7 @@
 LCB_INTERNAL_API
 void lcb_default_settings(lcb_settings *settings)
 {
-    settings->ipv6 = LCB_IPV6_DISABLED;
+    settings->ipv6 = LCB_IPV6_ALLOW;
     settings->operation_timeout = LCB_DEFAULT_TIMEOUT;
     settings->config_timeout = LCB_DEFAULT_CONFIGURATION_TIMEOUT;
     settings->config_node_timeout = LCB_DEFAULT_NODECONFIG_TIMEOUT;
